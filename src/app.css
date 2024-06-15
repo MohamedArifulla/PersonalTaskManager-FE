@@ -1,0 +1,59 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* src/app.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 4rem; /* Ensure enough space for footer */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Custom styles */
+.error-page {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-page h1 {
+  font-size: 2rem;
+  color: #b91c1c; /* Red color for error headers */
+}
+
+.error-page p {
+  margin-top: 10px;
+  color: #7f1d1d; /* Darker red for error messages */
+}
+
+.error-page a {
+  margin-top: 20px;
+  display: inline-block;
+  color: #3b82f6; /* Blue color for links */
+  text-decoration: underline;
+}

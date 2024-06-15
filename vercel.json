@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://express-app-mohamedarifulla-mohamedarifullas-projects.vercel.app/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "outputDirectory": ".svelte-kit/output/client",
+  "env": {
+    "VITE_API_URL": "https://express-app-mohamedarifulla-mohamedarifullas-projects.vercel.app"
+  }
+}
