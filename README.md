@@ -71,3 +71,5 @@ Locally preview the production build.
 Contact:
 Mohamed Arifulla A
 Project Link: https://github.com/MohamedArifulla/PersonalTaskManager-FE
+
+Deployed Application Link: https://personal-task-manager-fe.vercel.app/
