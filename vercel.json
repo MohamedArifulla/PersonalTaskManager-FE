@@ -12,15 +12,10 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://express-app-mohamedarifulla-mohamedarifullas-projects.vercel.app/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "dest": "https://express-app-git-master-mohamedarifullas-projects.vercel.app/api/$1"
     }
   ],
-  "outputDirectory": ".svelte-kit/output/client",
   "env": {
-    "VITE_API_URL": "https://express-app-mohamedarifulla-mohamedarifullas-projects.vercel.app"
+    "VITE_API_URL": "https://express-app-git-master-mohamedarifullas-projects.vercel.app"
   }
 }
