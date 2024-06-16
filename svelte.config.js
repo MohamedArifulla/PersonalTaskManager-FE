@@ -8,8 +8,7 @@ export default {
     postcss: {
       plugins: [
         tailwindcss,
-        autoprefixer,
-        // other PostCSS plugins as needed
+        autoprefixer
       ],
     },
   }),
